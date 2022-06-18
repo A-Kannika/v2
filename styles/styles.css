@@ -559,6 +559,7 @@ section {
   width: 40px;
   height:40px;
   margin: 5px;
+  bottom: 5px;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 5px;
@@ -609,7 +610,7 @@ section {
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 .contact-content-con .left-contact p {
@@ -626,14 +627,21 @@ section {
   padding: 0 !important;
 }
 .contact-content-con .left-contact .contact-info .contact-item .icon {
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 40px 1fr;
 }
+
+.contact-content-con .left-contact .contact-info .contact-item .icon a:hover{
+  color: var(--color-secondary);
+}
+
 .contact-content-con .left-contact .contact-info .contact-item .icon i {
   display: flex;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
+
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 2rem;
@@ -666,6 +674,16 @@ section {
 .contact-content-con .right-contact {
   flex: 3;
   margin-left: 3rem;
+}
+.contact-content-con .right-contact h4 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+.contact-content-con .right-contact h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
 }
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
@@ -1035,4 +1053,36 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  left: -20px;
+  top: -40px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
