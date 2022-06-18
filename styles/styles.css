@@ -812,9 +812,19 @@ section {
     margin: 0 auto;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
     text-align: center;
     padding-top: 3rem;
+    
+
+  }
+  .right-header .name span{
+    color: var(--color-secondary); 
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+
   }
 
   .header-content .left-header .image {
@@ -949,6 +959,21 @@ section {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
+  .right-header .name {
+    font-size: 1.5rem !important;
+    text-align: center;
+    padding-top: 3rem;
+    
+
+  }
+  .right-header .name span{
+    color: var(--color-secondary); 
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+
+  }
 }
 @media screen and (max-width: 1250px) {
   .blogs {
@@ -963,6 +988,21 @@ section {
   .header-content .right-header {
     padding-right: 9rem;
   }
+  .right-header .name {
+    font-size: 1.5rem !important;
+    text-align: center;
+    padding-top: 3rem;
+    
+
+  }
+  .right-header .name span{
+    color: var(--color-secondary); 
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+
+  }
 }
 @media screen and (max-width: 660px) {
   .blogs {
@@ -971,6 +1011,21 @@ section {
 
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .right-header .name {
+    font-size: 1.5rem !important;
+    text-align: center;
+    padding-top: 3rem;
+    
+
+  }
+  .right-header .name span{
+    color: var(--color-secondary); 
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+
   }
 }
 @media screen and (max-width: 1070px) {
@@ -989,6 +1044,21 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 4.5rem;
+  }
+  .right-header .name {
+    font-size: 1.5rem !important;
+    text-align: center;
+    padding-top: 3rem;
+    
+
+  }
+  .right-header .name span{
+    color: var(--color-secondary); 
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+
   }
 }
 @media screen and (max-width: 970px) {
@@ -1020,9 +1090,19 @@ section {
     margin: 0 auto;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
     text-align: center;
     padding-top: 3rem;
+    
+
+  }
+  .right-header .name span{
+    color: var(--color-secondary); 
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+
   }
 }
 @media screen and (max-width: 700px) {
@@ -1050,6 +1130,21 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 4rem;
+  }
+  .right-header .name {
+    font-size: 1.5rem !important;
+    text-align: center;
+    padding-top: 3rem;
+    
+
+  }
+  .right-header .name span{
+    color: var(--color-secondary); 
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+
   }
 }
 
