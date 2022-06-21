@@ -308,9 +308,14 @@ section {
   flex-direction: column;
 }
 .about-stats .progress-bars .progress-bar .prog-title {
-  text-transform: uppercase;
   font-size: 1rem;
   font-weight: 300;
+  float: right;
+}
+.about-stats .progress-bars .progress-bar .prog-title .level{
+  font-size: 0.7rem;
+  font-weight: 300;
+  float: right;
 }
 .about-stats .progress-bars .progress-bar .progress-con {
   display: flex;
@@ -342,19 +347,19 @@ section {
   width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 60%;
+  width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 60%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .r {
-  width: 60%;
+  width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .c {
-  width: 50%;
+  width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .intellij {
   width: 95%;
@@ -369,10 +374,10 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .Git {
-  width: 60%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .studio {
-  width: 60%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .xampp {
   width: 50%;
